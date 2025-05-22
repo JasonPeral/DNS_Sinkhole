@@ -87,10 +87,10 @@ Uncomment and edit relevant fields to set a static IP:
 
 ```conf
 # send host-name "pihole1";
-# fixed-address 192.168.2.39;
-# option subnet-mask 255.255.255.0;
-# option routers 192.168.2.1;
-# option domain-name-servers 127.0.0.1;
+# fixed-address 192.x.x.x;
+# option subnet-mask 255.x.x.x;
+# option routers 192.x.x.x;
+# option domain-name-servers 127.x.x.x;
 ```
 
 Then reboot:
